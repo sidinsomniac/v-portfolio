@@ -104,16 +104,13 @@ header {
     border-bottom: 20px solid white;
 }
 
-#header_title_heading {
+#header_title_heading,
+#header_title_name {
     /* letter-spacing: 0.2rem; */
     font-size: 3rem;
     font-weight: normal;
     padding-bottom: 50px;
-}
-
-#header_title_name {
-    font-size: 2rem;
-    color: #552029;
+    color: white;
 }
 
 #header_title h3 {
@@ -455,6 +452,7 @@ main h2 {
 }
 
 #project_work .project_layer_overlay {
+    width: 100%;
     border-top: 2px solid #fff;
     padding: 0 15px;
     position: absolute;
@@ -477,8 +475,8 @@ main h2 {
 
 #project_work .project_layer:hover .project_layer_overlay {
     top: 0;
-    color: #da4167;
-    background: rgba(255, 243, 235, 0.9);
+    color: white;
+    background: #34495e;
 }
 
 main::after {
@@ -676,7 +674,7 @@ footer {
     margin: 0 auto;
     padding: 250px 0 20px 0;
     text-align: center;
-    background: #1d0b0e;
+    background: #34495e;
 }
 
 footer h3 {
